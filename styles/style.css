@@ -169,6 +169,51 @@ Stylesheet: 600px以上のタブレットやモニタで適用
 Stylesheet: 960px以上のモニタで適用
 
 ******************************************************************/
+  .main-visual {
+    width: 90vw;
+    margin: 60px auto 0;
+  }
+  .header {
+    width: 90vw;
+    margin: 0 auto 30px;
+    padding: 32px 0;
+  }
+  .concept {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .concept__img {
+    width: 50%;
+    margin: 0;
+  }
+  .concept__text {
+    width: 50%;
+    padding: 0 7%;
+  }
+  .work {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .work__img {
+    width: 50%;
+    margin: 0;
+  }
+  .work__text {
+    width: 50%;
+    padding: 0 7%;
+  }
 }
 
 @media (min-width: 1280px) {
