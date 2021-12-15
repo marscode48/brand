@@ -1,0 +1,251 @@
+@charset "UTF-8";
+/******************************************************************
+
+Stylesheet: ベーススタイル
+
+******************************************************************/
+body {
+  font-family: "Crimson Pro", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #2D2D2D;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.font-sm, .footer {
+  font-size: 14px;
+}
+
+.font-md, .sub-title, .concept__subtitle, .work__subtitle, .header__navi ul li, .concept__text, .work__text {
+  font-size: 16px;
+}
+
+.font-lr, .main-title, .concept__title, .work__title {
+  font-size: 20px;
+}
+
+.font-lg {
+  font-size: 24px;
+}
+
+.mb-lg, .concept, .work {
+  margin-bottom: 60px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 18px;
+}
+
+.main-title, .concept__title, .work__title {
+  font-weight: normal;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.sub-title, .concept__subtitle, .work__subtitle {
+  font-weight: normal;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.main-visual img {
+  height: 50vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 18px;
+  margin-bottom: 30px;
+}
+
+.header__logo {
+  width: 110px;
+  margin-right: 50px;
+}
+
+.header__logo a {
+  display: block;
+}
+
+.header__logo a img {
+  vertical-align: middle;
+}
+
+.header__navi ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__navi ul li {
+  margin-right: 30px;
+}
+
+.header__navi ul li a:hover {
+  color: #2D2D2D;
+  text-decoration: none;
+}
+
+.header__navi ul li:last-child {
+  margin-right: 0px;
+}
+
+.concept__img {
+  margin-bottom: 10px;
+}
+
+.concept__text p {
+  margin: 0;
+}
+
+.work__img {
+  margin-bottom: 10px;
+}
+
+.work__text p {
+  margin: 0;
+}
+
+.footer {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__logo {
+  width: 110px;
+}
+
+.footer__logo img {
+  vertical-align: middle;
+}
+
+.footer p {
+  margin: 0;
+}
+
+@media (min-width: 480px) {
+  /******************************************************************
+
+Stylesheet: 480px以上(スマホの横向き)のモニタで適用
+
+******************************************************************/
+}
+
+@media (min-width: 600px) {
+  /******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+}
+
+@media (min-width: 960px) {
+  /******************************************************************
+
+Stylesheet: 960px以上のモニタで適用
+
+******************************************************************/
+  .main-visual {
+    width: 90vw;
+    margin: 60px auto 0;
+  }
+  .header {
+    width: 90vw;
+    margin: 0 auto 30px;
+    padding: 32px 0;
+  }
+  .concept {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .concept__img {
+    width: 50%;
+    margin: 0;
+  }
+  .concept__text {
+    width: 50%;
+    padding: 0 7%;
+  }
+  .work {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .work__img {
+    width: 50%;
+    margin: 0;
+  }
+  .work__text {
+    width: 50%;
+    padding: 0 7%;
+  }
+}
+
+@media (min-width: 1280px) {
+  /******************************************************************
+
+Stylesheet: 1280px以上のモニタで適用
+
+******************************************************************/
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /******************************************************************
+
+Stylesheet: Retinaディスプレイで適用
+
+******************************************************************/
+  /* 
+
+EXAMPLE 
+.icon {
+	background: url(images/test@2x.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+*/
+}
+
+@media print {
+  /******************************************************************
+
+Stylesheet: プリンタのみに適用
+
+******************************************************************/
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+/******************************************************************
+
+Stylesheet: 960px以上のモニタで適用
+
+******************************************************************/
+
+.main-visual {
+  width: 90vw;
+  margin: 60px auto 0;
+}
+
+.header {
+  width: 90vw;
+  margin: 0 auto 30px;
+  padding: 32px 0;
+}
+
+.concept {
+  display: flex;
+  align-items: center;
+
+  &__img {
+    width: 50%;
+    margin: 0;
+  }
+
+  &__text {
+    width: 50%;
+    padding: 0 7%;
+  }
+}
+
+.work {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+
+
+  &__img {
+    width: 50%;
+    margin: 0;
+  }
+
+  &__text {
+    width: 50%;
+    padding: 0 7%;
+  }
+}
